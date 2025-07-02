@@ -3,11 +3,12 @@ import "../../App.css";
 import clsx from "clsx";
 import HoverCard from "./HoverCard";
 import styles from "./Portfolio.module.css";
-import Image1  from "../../assets/111.png";
-import Image2  from "../../assets/112.png";
-import Image3  from "../../assets/113.png";
-import Image4  from "../../assets/114.png";
-import Image5  from "../../assets/115.png";
+import Image1 from "../../assets/111.png";
+import Image2 from "../../assets/112.png";
+import Image3 from "../../assets/113.png";
+import Image4 from "../../assets/114.png";
+import Image5 from "../../assets/115.png";
+import Image6 from "../../assets/netflix.png";
 // import Image6  from "../../assets/116.png";
 
 const cardData = [
@@ -48,35 +49,35 @@ const cardData = [
     id: 4,
     title: "Simple Cricket Game",
     description: "Building a decentralized network for secure data exchange.",
-    imageUrl: Image2, 
+    imageUrl: Image2,
     imageWidth: 400,
     imageHeight: 600,
     // dataAiHint: "secure network",
     githubUrl: "https://github.com",
     liveUrl: "https://example.com"
-  }
-  ,
+  },
   {
     id: 5,
+    title: "Netfix Clone",
+    description: "Researching atmospheric carbon capture technologies...",
+    imageUrl: Image6,
+    imageWidth: 400,
+    imageHeight: 450,
+    // dataAiHint: "carbon capture",
+    githubUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    liveUrl: "https://www.netflix.com/in/"
+  },
+  {
+    id: 6,
     title: "ToDo App",
     description: "Innovating in augmented reality for educational purposes.",
-    imageUrl: Image5, 
+    imageUrl: Image5,
     imageWidth: 400,
     imageHeight: 350,
     // dataAiHint: "augmented reality",
     githubUrl: "https://github.com",
     liveUrl: "https://example.com"
   },
-  // {
-  //   id: 6,
-  //   title: "Project Zeta",
-  //   description: "Researching atmospheric carbon capture technologies.",
-  //   imageWidth: 400,
-  //   imageHeight: 450,
-  //   dataAiHint: "carbon capture",
-  //   githubUrl: "https://github.com",
-  //   liveUrl: "https://example.com"
-  // },
   // {
   //   id: 7,
   //   title: "Project Eta",
