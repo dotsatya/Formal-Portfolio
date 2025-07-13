@@ -18,7 +18,7 @@ function Data() {
           height="36"
           viewBox="0 0 48 48"
           fill="none"
-           className={styles.hand}
+          className={styles.hand}
         >
           <path
             d="M25.4995 32.0305L31.3495 33.1555L36.1495 8.48051C36.4495 6.83051 35.3995 5.18051 33.8245 4.88051C32.1745 4.58051 30.5995 5.70551 30.2995 7.35551L25.4995 32.0305Z"
@@ -88,10 +88,12 @@ function Data() {
         I break down complex user experience problems to create integrity
         focused solutions that connect billions of people.
       </p>
-      <button className={clsx(styles.button)}>
-        <span>Say Hello</span>
-        <FiSend className={styles.icon} />
-      </button>
+      <a className={clsx(styles.button_text)} href="#contact">
+        <button className={clsx(styles.button)}>
+          <span> Say Hello</span>
+          <FiSend className={styles.icon} />
+        </button>
+      </a>
     </div>
   );
 }

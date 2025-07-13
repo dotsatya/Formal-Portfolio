@@ -40,10 +40,15 @@ margin-bottom: var(--mb-3);
   /* font-size: var(--normal-font-size); */
   font-size: 1.2rem;
   font-weight: var(--font-medium); 
-  margin-bottom: var(--mb-0-25);
+  margin-bottom: var(--mb-0-2);
+}
+
+.reviews_subtitle{
+  font-size: var(--small-font-size);
 }
 
 .reviews_description{
+  margin-top: .8rem;
   font-size: var(--small-font-size);
   text-align: justify;
   /* text-justify: inter-word; */

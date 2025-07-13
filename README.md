@@ -31,17 +31,24 @@ This portfolio showcases my skills, projects, and contact details in a responsiv
 ---
 
 ## 📁 Folder Structure
+
 src/
-├── assets/
-├── components/
-├── App.jsx
-└── index.js
+├── assets/ # Images, logos
+├── components/ # Reusable components
+│ ├── Header/
+│ ├── About/
+│ ├── Skills/
+│ ├── Projects/
+│ ├── Contact/
+├── App.jsx # Main app component
+├── App.module.css # Global app styles
+└── index.js # Entry point
 
 ---
 
 ## 📸 Screenshots
 
-![Portfolio Screenshot](./assets/screenshot.png)
+![Portfolio Screenshot](../Formal-Portfolio/src/assets/screenshot.png)
 
 ---
 
@@ -49,11 +56,6 @@ src/
 
 Feel free to reach out or connect:
 
-- 📧 Email: satyasundardey4@gmail.com  
+- 📧 Email: satyasundardey4@email.com  
 - 🐙 GitHub: [dotsatya](https://github.com/dotsatya)
 
----
-
-## 📄 License
-
-This project is open-source and free to use for educational or personal purposes.

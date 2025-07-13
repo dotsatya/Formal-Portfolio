@@ -8,9 +8,11 @@ import Skills from "./components/Skills/Skills.jsx";
 import Services from "./components/Services/Services.jsx";
 import Reviews from "./components/Reviews/Reviews.jsx";
 import Portfolio from "./components/Portfolio/Portfolio.jsx";
+import Photograohy from "./components/Photograohy/Photograohy.jsx";
 import Contact from "./components/Contact/Contact.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import Scrollup from "./components/Scrollup/Scrollup.jsx";
+
 // import Dot from "./components/Dot/Dot.jsx";
 
 
@@ -28,6 +30,7 @@ function App() {
         <Services />
         <Reviews />
         <Portfolio />
+        <Photograohy />
         <Contact />
       </main>
       <Footer />

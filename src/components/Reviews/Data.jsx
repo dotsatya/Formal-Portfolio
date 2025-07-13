@@ -8,26 +8,26 @@ export const Data = [
   {
     id: 1,
     image: Image1,
-    title: "Customer Name",
-    // subtitle: "Customer Position",
+    title: "Esther Howard",
+    subtitle: "@estherhoward",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+      "Satya was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that's both modern and easy to navigate. Fantastic work overall.",
   },  
   {
     id: 2,
     image: Image2,
-    title: "Customer Name",
-    // subtitle: "Customer Position",
+    title: "Floyda Miles",
+    subtitle: "@fioydamiles",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+      "Satya's expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He's a true professional!",
   },  
   {
     id: 3,
     image: Image3,
-    title: "Customer Name",
-    // subtitle: "Customer Position",
+    title: "Esther Howard",
+    subtitle: "@estherhoward",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+      "I can't say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
   },  
 ];
 
