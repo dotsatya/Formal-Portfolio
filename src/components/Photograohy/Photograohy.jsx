@@ -3,23 +3,28 @@ import "../../App.css";
 import clsx from "clsx";
 import HoverCard from "./HoverCard";
 import styles from "./Photograohy.module.css";
-// import Image1 from "../../assets/111.png";
+import Image1 from "../../assets/1.png";
+import Image2 from "../../assets/2.png";
+import Image3 from "../../assets/3.png";
+import Image4 from "../../assets/4.png";
+import Image5 from "../../assets/5.png";
 
 const cardData = [
   {
     id: 1,
-    imageUrl: "https://www.instagram.com/p/CxSBeljxoZX/?igsh=MWpzM3JuOXNqcmM5aQ=="
-  },
+    imageUrl: Image1,
+  }, 
   {
     id: 2,
-    imageUrl: "https://www.instagram.com/p/CxSBeljxoZX/?igsh=MWpzM3JuOXNqcmM5aQ=="
-  }, {
+    imageUrl: Image3,
+  },
+  {
     id: 3,
-    imageUrl: "https://www.instagram.com/p/CxSBeljxoZX/?igsh=MWpzM3JuOXNqcmM5aQ=="
+    imageUrl: Image4,
   },
   {
     id: 4,
-    imageUrl: "https://www.instagram.com/p/CxSBeljxoZX/?igsh=MWpzM3JuOXNqcmM5aQ=="
+    imageUrl: Image5,
   },
 ];
 
@@ -38,15 +43,7 @@ const Photograohy = () => {
             {cardData.map((card) => (
               <HoverCard
                 key={card.id}
-                title={card.title}
-                description={card.description}
-                // imageUrl={`https://placehold.co/${card.imageWidth}x${card.imageHeight}.png`}
                 imageUrl={card.imageUrl}
-                imageWidth={card.imageWidth}
-                imageHeight={card.imageHeight}
-                dataAiHint={card.dataAiHint}
-                githubUrl={card.githubUrl}
-                liveUrl={card.liveUrl}
               />
             ))}
           </div>

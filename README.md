@@ -32,6 +32,7 @@ This portfolio showcases my skills, projects, and contact details in a responsiv
 
 ## 📁 Folder Structure
 
+``` 
 src/
 ├── assets/ # Images, logos
 ├── components/ # Reusable components
@@ -42,13 +43,14 @@ src/
 │ ├── Contact/
 ├── App.jsx # Main app component
 ├── App.module.css # Global app styles
-└── index.js # Entry point
+└── index.js # Entry point 
+```
 
 ---
 
 ## 📸 Screenshots
 
-![Portfolio Screenshot](../Formal-Portfolio/src/assets/screenshot.png)
+![Portfolio Screenshot](./src/assets/screenshot.png)
 
 ---
 
