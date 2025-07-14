@@ -51,7 +51,7 @@ const Footer = () => {
           </a>
         </div>
         <span className={clsx(styles.footer_copy, "footer__copy")}>
-          <small>&copy; Satya Sundar Dey. All rights reserved.</small>
+          <small>&copy; 2025 DotSatya, All rights reserved.</small>
         </span>
 
       </div>

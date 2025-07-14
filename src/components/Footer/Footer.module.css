@@ -71,6 +71,10 @@
   color: rgba(141, 140, 140, 0.7);
 }
 
+.footer_copy{
+  font-weight: lighter;
+}
+
 /* for large screens */
 @media screen and (min-width: 992px) {
   .footer_container {

@@ -57,7 +57,9 @@ const Contact = () => {
                 rel="noreferrer"
                 className={clsx(styles.contact_button)}
               >
-                Write me
+                <span className={clsx(styles.contact_button_text)}>
+                  Write me
+                </span>
                 <i className={clsx("bx", "bx-right-arrow-alt", styles.contact_button_icon)}></i>
               </a>
             </div>
@@ -74,7 +76,9 @@ const Contact = () => {
                 rel="noreferrer"
                 className={clsx(styles.contact_button)}
               >
-                Write me
+                <span className={clsx(styles.contact_button_text)}>
+                  Write me
+                </span>
                 <i className={clsx("bx", "bx-right-arrow-alt", styles.contact_button_icon)}></i>
               </a>
             </div>
@@ -91,7 +95,9 @@ const Contact = () => {
                 rel="noreferrer"
                 className={clsx(styles.contact_button)}
               >
-                Write me
+                <span className={clsx(styles.contact_button_text)}>
+                  Write me
+                </span>
                 <i className={clsx("bx", "bx-right-arrow-alt", styles.contact_button_icon)}></i>
               </a>
             </div>
@@ -150,7 +156,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      
+
       <div className={clsx(styles.show_message)}>
         <AnimatePresence >
           {statusMessage && (
