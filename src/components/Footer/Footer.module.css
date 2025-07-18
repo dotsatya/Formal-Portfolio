@@ -1,5 +1,5 @@
 .footer {
-  background-color: var(--container-color);
+  /* background-color: var(--container-color); */
   padding: 2rem 0 3rem;
   position: relative; /* Needed for absolute line */
 }
@@ -16,8 +16,8 @@
   background: linear-gradient(
     to right,
     transparent 0%,
-    white 25%,
-    white 75%,
+    rgb(150, 150, 150) 25%,
+    rgb(150, 150, 150) 75%,
     transparent 100%
   );
   opacity: 0.5;
@@ -71,7 +71,7 @@
   color: rgba(141, 140, 140, 0.7);
 }
 
-.footer_copy{
+.footer_copy {
   font-weight: lighter;
 }
 
