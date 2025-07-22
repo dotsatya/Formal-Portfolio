@@ -1,6 +1,6 @@
-import React, { useEffect } from "react";
+import React, { useState } from "react";
+import LoadingScreen from "./components/LoadingScreen/LoadingScreen.jsx";
 import CustomCursor from "./components/CustomCursor/CustomCursor.jsx";
-import "./App.css";
 import Header from "./components/Header/Header.jsx";
 import Home from "./components/Home/Home.jsx";
 import About from "./components/About/About.jsx";
@@ -13,28 +13,31 @@ import Contact from "./components/Contact/Contact.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import Scrollup from "./components/Scrollup/Scrollup.jsx";
 
-// import Dot from "./components/Dot/Dot.jsx";
-
-
 function App() {
+  const [showLoader, setShowLoader] = useState(true);
 
   return (
     <>
-      <CustomCursor />
-      <Header />
-      <main className="main">
-        <Home />
-        {/* <Dot /> */}
-        <About />
-        <Skills />
-        <Services />
-        <Reviews />
-        <Portfolio />
-        <Photograohy />
-        <Contact />
-      </main>
-      <Footer />
-      <Scrollup />
+      {showLoader ? (
+        <LoadingScreen onFinish={() => setShowLoader(false)} />
+      ) : (
+        <>
+          <CustomCursor />
+          <Header />
+          <main className="main">
+            <Home />
+            <About />
+            <Skills />
+            <Services />
+            <Reviews />
+            <Portfolio />
+            <Photograohy />
+            <Contact />
+          </main>
+          <Footer />
+          <Scrollup />
+        </>
+      )}
     </>
   );
 }
