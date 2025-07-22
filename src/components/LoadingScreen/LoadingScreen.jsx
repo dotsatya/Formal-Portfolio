@@ -21,7 +21,7 @@ const LoadingScreen = ({ onFinish }) => {
   useEffect(() => {
     const interval = setInterval(() => {
       setIndex((prev) => prev + 1);
-    }, 160);
+    }, 200);
 
     if (index === greetings.length) {
       clearInterval(interval);
@@ -30,7 +30,7 @@ const LoadingScreen = ({ onFinish }) => {
       // after fade out transition ends (1s), call onFinish
       setTimeout(() => {
         onFinish();
-      }, 500);
+      }, 600);
     }
 
     return () => clearInterval(interval);
