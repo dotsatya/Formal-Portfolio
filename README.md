@@ -5,7 +5,7 @@ This portfolio showcases my skills, projects, and contact details in a responsiv
 
 ## 🔗 Live Preview
 
-🌐 [Click to Visit Portfolio](https://dotsatya.github.io/Formal-Portfolio/)
+🌐 [Click to Visit Portfolio](https://satya-sundar-dey-portfolio.vercel.app/)
 
 ---
 
