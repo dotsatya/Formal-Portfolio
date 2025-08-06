@@ -2,7 +2,6 @@ import React from "react";
 import { FiDownloadCloud } from "react-icons/fi";
 import styles from "./About.module.css";
 import clsx from "clsx";
-import CV from "../../assets/CV.pdf";
 import profileImg from "../../assets/profile12.png";
 import Info from "./Info.jsx";
 import useInView from "../hooks/useInView";
@@ -48,7 +47,7 @@ const About = () => {
             lifelong learning.
           </p>
           <a
-            href={CV}
+            href="https://drive.google.com/uc?export=download&id=1rNsjd2KM8hv2P6rd1KE1Xy6lAWYyXmY1"
             className={clsx(styles.button, styles.button_flex)}
             download
           >
