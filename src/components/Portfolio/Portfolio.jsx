@@ -47,14 +47,14 @@ const cardData = [
   },
   {
     id: 4,
-    title: "Simple Cricket Game",
-    description: "Building a decentralized network for secure data exchange.",
+    title: "DotSkyNow🌤️ ",
+    description: "Weather app with real-time forecasts, geolocation, and smooth animated theme switching.",
     imageUrl: Image2,
     imageWidth: 400,
     imageHeight: 600,
     // dataAiHint: "secure network",
-    githubUrl: "https://github.com",
-    liveUrl: "https://example.com"
+    githubUrl: "https://github.com/dotsatya/DotSkyNow",
+    liveUrl: "https://dotskynow.vercel.app/"
   },
   {
     id: 5,
@@ -117,7 +117,6 @@ const Portfolio = () => {
                 key={card.id}
                 title={card.title}
                 description={card.description}
-                // imageUrl={`https://placehold.co/${card.imageWidth}x${card.imageHeight}.png`}
                 imageUrl={card.imageUrl}
                 imageWidth={card.imageWidth}
                 imageHeight={card.imageHeight}
