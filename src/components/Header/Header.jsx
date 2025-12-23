@@ -15,7 +15,6 @@ const Header = () => {
             className={clsx(styles.logo)}
             src={profileImg}
             alt="My Photo"
-            width="42"
           />
           <h1>@satya</h1>
         </div>
