@@ -7,6 +7,7 @@ import Backend from "./Backend.jsx";
 import Infinite_scroll from "./Infinite_scroll.jsx"
 
 import useInView from "../hooks/useInView";
+import GraphicsDesigner from "./GraphicsDesigner.jsx";
 
 const Skills = () => {
   const [titleRef, titleVisible] = useInView();
@@ -24,6 +25,7 @@ const Skills = () => {
       <div className={clsx(styles.skills_container, "container", "grid")}>
         <Frontend />
         <Backend />
+        <GraphicsDesigner />
       </div>
 
         <Infinite_scroll />

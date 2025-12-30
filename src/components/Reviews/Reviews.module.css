@@ -17,64 +17,59 @@
 
 .reviews_container {
   width: 750px;
-
 }
 
-.reviews_card{
+.reviews_card {
   background-color: #bababa09;
   border: 1px solid rgba(133, 133, 133, 0.3);
-border-radius: 1rem;
-padding: 1.5rem 2rem;
-margin-bottom: var(--mb-3);
+  border-radius: 1rem;
+  padding: 1.5rem 2rem;
+  margin-bottom: var(--mb-3);
 }
 
-.reviews_img{
+.reviews_img {
   width: 60px;
-  /* height: 60px; */
+  height: 60px;
   border-radius: 3rem;
   /* margin-right: 1rem; */
   margin-bottom: var(--mb-1);
 }
 
-.reviews_name{
+.reviews_name {
   /* font-size: var(--normal-font-size); */
   font-size: 1.2rem;
-  font-weight: var(--font-medium); 
+  font-weight: var(--font-medium);
   margin-bottom: var(--mb-0-2);
 }
 
-.reviews_subtitle{
+.reviews_subtitle {
   font-size: var(--small-font-size);
 }
 
-.reviews_description{
-  margin-top: .8rem;
+.reviews_description {
+  margin-top: 0.8rem;
   font-size: var(--small-font-size);
   text-align: justify;
   /* text-justify: inter-word; */
 }
 
 .description::after {
-  content: '';
+  content: "";
   display: inline-block;
   width: 100%;
 }
 
-
-
 :global(.swiper-pagination-bullet) {
   /* border: 1px solid red; */
   background-color: #808080b0 !important;
-  opacity: 0.4 !important;        /* lower opacity for inactive */
+  opacity: 0.4 !important; /* lower opacity for inactive */
   transform: scale(0.8) !important; /* make smaller */
-  transition:     background-color 0.3s ease,
-    transform 0.3s ease,
-    opacity 0.3s ease;;      /* smooth transition */
+  transition: background-color 0.3s ease, transform 0.3s ease, opacity 0.3s ease; /* smooth transition */
 }
 
 :global(.swiper-pagination-bullet-active) {
   background-color: #808080ed !important;
-  opacity: 1 !important;         /* full visibility for active */
+  opacity: 1 !important; /* full visibility for active */
   transform: scale(1.2) !important; /* make larger */
 }
 
@@ -83,15 +78,14 @@ margin-bottom: var(--mb-3);
   transform: scale(1) !important;
 }
 
-
 /* For large devices 992*/
 @media screen and (max-width: 992px) {
-.reviews_container{
-  width: initial;
-}
-.reviews_card{
-  padding: 1.25rem 1.5rem;
-}
+  .reviews_container {
+    width: initial;
+  }
+  .reviews_card {
+    padding: 1.25rem 1.5rem;
+  }
 }
 /* For medium devices */
 @media screen and (max-width: 768px) {
@@ -105,7 +99,7 @@ margin-bottom: var(--mb-3);
 
 /* For small devices */
 @media screen and (max-width: 350px) {
-  :root{
+  :root {
     --big-font-size: 2.25rem;
     --h1-font-size: 1.25rem;
     --h2-font-size: 1rem;
@@ -119,5 +113,3 @@ margin-bottom: var(--mb-3);
     margin-right: var(--mb-1);
   }
 }
-
-

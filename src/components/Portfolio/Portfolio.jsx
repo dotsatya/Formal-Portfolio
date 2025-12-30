@@ -5,7 +5,7 @@ import HoverCard from "./HoverCard";
 import styles from "./Portfolio.module.css";
 import Image1 from "../../assets/111.png";
 import Image2 from "../../assets/112.png";
-import Image3 from "../../assets/113.png";
+import Image3 from "../../assets/employee-Management-system.png";
 import Image4 from "../../assets/114.png";
 import Image5 from "../../assets/dotNotes.png";
 import Image6 from "../../assets/netflix.png";
@@ -21,7 +21,7 @@ const cardData = [
     imageHeight: 300,
     // dataAiHint: "quantum computing",
     githubUrl: "https://github.com/dotsatya/Sun-Earth-Moon",
-    liveUrl: "https://dotsatya.github.io/Sun-Earth-Moon/"
+    liveUrl: "https://dotsatya.github.io/Sun-Earth-Moon/",
   },
   {
     id: 2,
@@ -32,18 +32,19 @@ const cardData = [
     imageHeight: 500,
     // dataAiHint: "personalized medicine",
     githubUrl: "https://github.com/dotsatya/Music-Website",
-    liveUrl: "https://dotsatya.github.io/Music-Website/"
+    liveUrl: "https://dotsatya.github.io/Music-Website/",
   },
   {
     id: 3,
-    title: "Event Management System",
-    description: "Exploring sustainable energy solutions for urban environments.",
+    title: "Employee Management System",
+    description:
+      "Exploring sustainable energy solutions for urban environments.",
     imageUrl: Image3,
     imageWidth: 400,
     imageHeight: 400,
     // dataAiHint: "sustainable energy",
-    githubUrl: "https://github.com",
-    liveUrl: "https://example.com"
+    githubUrl: "https://github.com/dotsatya/Employee-Management-System",
+    liveUrl: "https://dot-employee-management-system.vercel.app/",
   },
   {
     id: 4,
@@ -54,18 +55,19 @@ const cardData = [
     imageHeight: 350,
     // dataAiHint: "augmented reality",
     githubUrl: "https://github.com/dotsatya/DotNotesNow/",
-    liveUrl: "https://dotnotesnow.vercel.app/"
+    liveUrl: "https://dotnotesnow.vercel.app/",
   },
   {
     id: 5,
     title: "DotSkyNow🌤️ ",
-    description: "Weather app with real-time forecasts, geolocation, and smooth animated theme switching.",
+    description:
+      "Weather app with real-time forecasts, geolocation, and smooth animated theme switching.",
     imageUrl: Image2,
     imageWidth: 400,
     imageHeight: 600,
     // dataAiHint: "secure network",
     githubUrl: "https://github.com/dotsatya/DotSkyNow",
-    liveUrl: "https://dotskynow.vercel.app/"
+    liveUrl: "https://dotskynow.vercel.app/",
   },
   {
     id: 6,
@@ -76,18 +78,18 @@ const cardData = [
     imageHeight: 450,
     // dataAiHint: "carbon capture",
     githubUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    liveUrl: "https://www.netflix.com/in/"
+    liveUrl: "https://www.netflix.com/in/",
   },
 
   // {
   //   id: 7,
-  //   title: "Project Eta",
+  //   title: "Employee Management System",
   //   description: "Login and keep notes with after edit support.",
   //   imageWidth: 400,
   //   imageHeight: 550,
   //   // dataAiHint: "financial tools",
   //   githubUrl: "https://github.com/dotsatya/DotNotesNow",
-  //   liveUrl: "https://dotnotenow.vercel.app/"
+  //   liveUrl: "https://dot-employee-management-system.vercel.app/"
   // },
   // {
   //   id: 8,
@@ -103,15 +105,19 @@ const cardData = [
 
 const Portfolio = () => {
   return (
-    <section className={clsx(styles.reviews, "container", "section")} id="portfolio">
+    <section
+      className={clsx(styles.reviews, "container", "section")}
+      id="portfolio"
+    >
       <div className={clsx(styles.section_titlebar)}>
         <h2 className={clsx(styles.section_title)}>Project Portfolio</h2>
-        <span className={clsx(styles.section_subtitle)}>🧩 Showcase My Craft</span>
+        <span className={clsx(styles.section_subtitle)}>
+          🧩 Showcase My Craft
+        </span>
       </div>
 
       <div className={clsx(styles.pageWrapper)}>
         <main className={clsx(styles.main)}>
-
           <div className={clsx(styles.grid)}>
             {cardData.map((card) => (
               <HoverCard
@@ -130,7 +136,6 @@ const Portfolio = () => {
         </main>
       </div>
     </section>
-
   );
 };
 
