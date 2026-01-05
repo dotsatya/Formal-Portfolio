@@ -8,8 +8,8 @@ import Image2 from "../../assets/112.png";
 import Image3 from "../../assets/employee-Management-system.png";
 import Image4 from "../../assets/114.png";
 import Image5 from "../../assets/dotNotes.png";
-import Image6 from "../../assets/netflix.png";
-// import Image6  from "../../assets/116.png";
+import Image6 from "../../assets/dotCryptoChecker.png";
+import Image7 from "../../assets/portfolio.png";
 
 const cardData = [
   {
@@ -71,26 +71,27 @@ const cardData = [
   },
   {
     id: 6,
-    title: "Netfix Clone",
-    description: "Researching atmospheric carbon capture technologies...",
+    title: "📈 DotCryptoChecker",
+    description: "A comprehensive Next.js cryptocurrency dashboard that provides real-time price updates, market insights, and interactive coin analysis.",
     imageUrl: Image6,
     imageWidth: 400,
     imageHeight: 450,
     // dataAiHint: "carbon capture",
-    githubUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    liveUrl: "https://www.netflix.com/in/",
+    githubUrl: "https://github.com/dotsatya/DotCryptoChecker",
+    liveUrl: "https://dotcryptochecker.vercel.app/",
   },
 
-  // {
-  //   id: 7,
-  //   title: "Employee Management System",
-  //   description: "Login and keep notes with after edit support.",
-  //   imageWidth: 400,
-  //   imageHeight: 550,
-  //   // dataAiHint: "financial tools",
-  //   githubUrl: "https://github.com/dotsatya/DotNotesNow",
-  //   liveUrl: "https://dot-employee-management-system.vercel.app/"
-  // },
+  {
+    id: 7,
+    title: "Satya // Portfolio",
+    description: "My portfolio website.",
+    imageUrl: Image7,
+    imageWidth: 400,
+    imageHeight: 550,
+    // dataAiHint: "financial tools",
+    githubUrl: "https://github.com/dotsatya/Formal-Portfolio",
+    liveUrl: "https://satyasundardey-portfolio.vercel.app/"
+  },
   // {
   //   id: 8,
   //   title: "Project Theta",
