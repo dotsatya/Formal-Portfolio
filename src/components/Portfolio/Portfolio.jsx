@@ -10,6 +10,7 @@ import Image4 from "../../assets/114.png";
 import Image5 from "../../assets/dotNotes.png";
 import Image6 from "../../assets/dotCryptoChecker.png";
 import Image7 from "../../assets/portfolio.png";
+import Image8 from "../../assets/ecomarse.png";
 
 const cardData = [
   {
@@ -72,7 +73,8 @@ const cardData = [
   {
     id: 6,
     title: "📈 DotCryptoChecker",
-    description: "A comprehensive Next.js cryptocurrency dashboard that provides real-time price updates, market insights, and interactive coin analysis.",
+    description:
+      "A comprehensive Next.js cryptocurrency dashboard that provides real-time price updates, market insights, and interactive coin analysis.",
     imageUrl: Image6,
     imageWidth: 400,
     imageHeight: 450,
@@ -90,18 +92,19 @@ const cardData = [
     imageHeight: 550,
     // dataAiHint: "financial tools",
     githubUrl: "https://github.com/dotsatya/Formal-Portfolio",
-    liveUrl: "https://satyasundardey-portfolio.vercel.app/"
+    liveUrl: "https://satyasundardey-portfolio.vercel.app/",
   },
-  // {
-  //   id: 8,
-  //   title: "Project Theta",
-  //   description: "Advancing robotics for automated logistics and delivery.",
-  //   imageWidth: 400,
-  //   imageHeight: 250,
-  //   dataAiHint: "robotics logistics",
-  //   githubUrl: "https://github.com",
-  //   liveUrl: "https://example.com"
-  // }
+  {
+    id: 8,
+    title: "Ecomarse🛒",
+    imageUrl: Image8,
+    description: "A ecomarse website using next js.",
+    imageWidth: 400,
+    imageHeight: 250,
+    // dataAiHint: "ecommerce platform",
+    githubUrl: "https://github.com/dotsatya/ecomarse",
+    liveUrl: "https://ecomarse-rust.vercel.app/",
+  },
 ];
 
 const Portfolio = () => {
